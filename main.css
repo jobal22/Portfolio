@@ -25,7 +25,9 @@
     z-index: 10;
   }
   
-  
+  .logo > img {
+      width: 50px;
+  }
   
   header {
     padding: 12% 0;
