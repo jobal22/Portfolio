@@ -8,19 +8,30 @@
 </head>
 <body>
     <nav role="navigation" class="navbar">
-        <div class="logo">
-            <img src="https://raw.githubusercontent.com/jobal22/Portfolio/master/images/jobal-Logo.png" 
-            alt="Jobal's logo">
+        <div class="nav-container">
+            <div class="logo">
+                <!--<ul>
+                    <li>
+                        <a id="logoPhoto" href=""></a>
+                    </li>
+                </ul>-->
+                <img src="https://raw.githubusercontent.com/jobal22/Portfolio/master/images/jobal-Logo.png" 
+                alt="Jobal's logo">
+            </div>
+            <div class="hamburger"><!--&#61-->&#924</div>
+            <div class="menu">
+                <ul>
+                    <li><a class="jumper" href=".aboutMe">About Me</a></li>
+                    <li><a class="jumper" href=".projects">Coding Projects</a></li>
+                    <li><a class="jumper" href=".contact">Contact Info</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="hamburger"><!--&#61-->&#924</div>
-        <ul class="menu">
-            <li>About Me</li>
-            <li>Coding Projects</li>
-        </ul>
     </nav>
     <main role="main">
         <header role="banner">
-            <h1>Hello! I'm Jobal!</h1>
+            <h1 class="h1-intro">Hello! I'm Jonathan Baldwin,</h1>
+            <h2 class="h2-intro">But I prefer to go by Jobal.</h2>
         </header>
 
         <section>
@@ -30,21 +41,17 @@
         </section>
 
         <section>
-            <div>
-                <div>
-                    <h2>About Me:</h2>
-                </div>
-                <div>
-                    <p>I am a web developer and recent graduate of the 
+            <div class="aboutMe">
+                <h2>About Me:</h2>
+                    <p class="jobalDesc">I am a web developer and recent graduate of the 
                     Software Engineering bootcamp at Thinkful. My love 
                     for coding developed from my passion for nonverbal 
                     languages (ex. music, truth-functioning logic, and 
                     predicate logic) and verbal languages. Also, my love 
                     for coding flourishes within my enthusiasm for 
                     problem-solving and devotion to research.</p>
-                </div> 
-                <div>
-                    <p>Prior to my studies at Thinkful, I graduated with 
+
+                    <p class="jobalDesc">Prior to my studies at Thinkful, I graduated with 
                     a B.S. in Toxicology from the University of Monroe in Louisiana, 
                     MDiv in International Church Planting and Ph.D. in Evangelism 
                     from Southwestern Baptist Theological Seminary. During my B.S., 
@@ -57,28 +64,54 @@
                     I believe the abilities to quickly understand complex concepts, 
                     reach across cultural barriers, lead, and train are the key strengths 
                     that I will add to any team.</p> 
-                </div>
             </div>
         </section>
 
         <section>
-            <div>
+            <div class="projects">
                 <h2>Projects:</h2>
-            </div>
-            <div>
-
+                    <div class="project-1">
+                        <h3>Quiz App</h3>
+            
+                            <div class="projectImg">
+                                <img src="https://github.com/jobal22/Portfolio/blob/master/images/QuizAppStart.png?raw=true" alt="Quiz App Start Page">
+                                <img src="https://github.com/jobal22/Portfolio/blob/master/images/QuizzAppQuest.png?raw=true" alt="Quiz App Question Page">
+                            </div>
+                            <div>
+                                <h3>This app displays two purposes:</h3>
+                                    <p class="appDesc">1) Demonstration of app 
+                                    development – The Evangelism Quiz App utilizes HTML, CSS, 
+                                    JavaScript, and jQuery to guide users through a collection 
+                                    of questions that each contains four multiple-choice options. 
+                                    When users answer a question, the app returns a confirmation 
+                                    or correction message. The app displays question count and score. 
+                                    After finishing the quiz, the app allows users to restart the quiz. </p>
+                                    <p class="appDesc">2) Train users on the subject of evangelism and test their knowledge.</p>
+                            </div>
+                            <div class="project-links">
+                                <div>
+                                    <a class="site-link1" href="https://github.com/jobal22/quiz-app" target="_blank">View Code</a> 
+                                    <a class="site-link2" href="https://jobal22.github.io/quiz-app" target="_blank">View Project</a> 
+                                </div>
+                            </div>
+                    </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Contact Information:</h2>
+        <div>
+            <div class="contact">
+                <h2>Reach Out</h2>
             </div>
             <div>
-
+                <ul class="social">
+                    <li><a class="social-links" href="https://github.com/jobal22" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true">GitHub</i></a></li>
+                    <li><a class="social-links" href="https://twitter.com/jobaLaura" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true">Twitter</i></a></li>
+                    <li><a class="social-links" href="INSERT LINKIN" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true">LINKIN</i></a></li>
+                    <li><a class="social-links" href="mailto:jbaldwije@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true">Email</i></a></li>
+                </ul>
             </div>
-        </section>
+        </div>
     </main>
-    <footer role="content-info">Footer</footer>
+    <footer role="content-info">Hope to see you soon!</footer>
 </body>
 </html>
