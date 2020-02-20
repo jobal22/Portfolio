@@ -64,6 +64,16 @@
   section:nth-child(even) {
     background-color: #ddd;
   }
+
+  h1 {
+    padding-top:100px; 
+    margin:0 auto; 
+    text-align: center;
+  }
+
+  .personPhoto > img {
+      width: 400px;
+  }
   
   @media screen and (max-width: 799px) {
     .hamburger {
