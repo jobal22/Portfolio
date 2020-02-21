@@ -68,8 +68,9 @@
   }
 
   section > h1, h2, h3 {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Lucida Sans Unicode",;
   }
+
 
   header {
     /*padding: 12% 0;*/
