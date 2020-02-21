@@ -4,10 +4,11 @@
     <title>Jobal's Portfolio HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <div class="border">
     <nav role="navigation" class="navbar">
         <div class="nav-container">
             <div class="logo">
@@ -16,27 +17,32 @@
                         <a id="logoPhoto" href=""></a>
                     </li>
                 </ul>-->
-                <img src="https://raw.githubusercontent.com/jobal22/Portfolio/master/images/jobal-Logo.png" 
+                <img src="https://github.com/jobal22/Portfolio/blob/typography-and-color/images/jobal-Logo-White.png?raw=true" 
                 alt="Jobal's logo">
             </div>
             <div class="hamburger"><!--&#61-->&#924</div>
             <div class="menu">
                 <ul>
-                    <li><a class="jumper" href=".aboutMe">About Me</a></li>
-                    <li><a class="jumper" href=".projects">Coding Projects</a></li>
-                    <li><a class="jumper" href=".contact">Contact Info</a></li>
+                    <li><a class="jumper" href="#aboutJobal">About Me</a></li>
+                    <li><a class="jumper" href="#myWork">Coding Projects</a></li>
+                    <li><a class="jumper" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main role="main">
+
+    <div class="border">
+    <main role="main" class="siteContent">
         <header role="banner">
             <h1 class="h1-intro">Hello! I'm Jonathan Baldwin,</h1>
             <h2 class="h2-intro">But I prefer to go by Jobal.</h2>
+            <h3 class="h2-intro">(Pronounced: joe-ball)</h3>
         </header>
+        
+        <hr>
 
         <section>
-            <div class="personPhoto">
+            <div class="personPhoto" id="aboutJobal">
                 <img src="https://raw.githubusercontent.com/jobal22/Portfolio/master/images/Jobal-photo.jpg" alt="photo of jobal">
             </div>
         </section>
@@ -68,8 +74,10 @@
             </div>
         </section>
 
+        <hr>
+
         <section>
-            <div class="projects">
+            <div class="projects" id="myWork">
                 <h2>Projects:</h2>
                     <div class="project-1">
                         <h3>Quiz App</h3>
@@ -87,7 +95,7 @@
                                     When users answer a question, the app returns a confirmation 
                                     or correction message. The app displays question count and score. 
                                     After finishing the quiz, the app allows users to restart the quiz. </p>
-                                    <p class="appDesc">2) Train users on the subject of evangelism and test their knowledge.</p>
+                                    <p class="appDesc appDesc2">2) Train users on the subject of evangelism and test their knowledge.</p>
                             </div>
                             <div class="project-links">
                                 <div>
@@ -98,17 +106,25 @@
                     </div>
             </div>
         </section>
+        
+        <hr>
 
         <div>
-            <div class="contact">
+            <div id="contact">
                 <h2>Reach Out</h2>
             </div>
             <div>
                 <ul class="social">
+                    <li><a class="social-links" href="https://github.com/jobal22" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li><a class="social-links" href="https://twitter.com/jobaLaura" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="social-links" href="https://www.linkedin.com/in/jobal/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a class="social-links" href="mailto:jbaldwije@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                    
+                <!--<ul class="social">
                     <li><a class="social-links" href="https://github.com/jobal22" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true">GitHub</i></a></li>
                     <li><a class="social-links" href="https://twitter.com/jobaLaura" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true">Twitter</i></a></li>
                     <li><a class="social-links" href="INSERT LINKIN" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true">LINKIN</i></a></li>
-                    <li><a class="social-links" href="mailto:jbaldwije@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true">Email</i></a></li>
+                    <li><a class="social-links" href="mailto:jbaldwije@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true">Email</i></a></li>-->
                 </ul>
             </div>
         </div>
