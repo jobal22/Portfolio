@@ -79,8 +79,8 @@
   }
   
   p {
-    font-family: "New Century Schoolbook", TeX Gyre Schola, serif;
-    letter-spacing: 4px;
+    font-family: "Helvetica Neue","Verdana", "sans-serif", "New Century Schoolbook", "serif";
+    letter-spacing: 2px;
     /*margin-left: 50px;
     margin-right: 50px;*/
   }
