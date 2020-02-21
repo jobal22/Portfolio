@@ -20,13 +20,17 @@
                 <img src="https://github.com/jobal22/Portfolio/blob/typography-and-color/images/jobal-Logo-White.png?raw=true" 
                 alt="Jobal's logo">
             </div>
-            <div class="hamburger"><!--&#61-->&#924</div>
-            <div class="menu">
-                <ul>
-                    <li><a class="jumper" href="#aboutJobal">About Me</a></li>
-                    <li><a class="jumper" href="#myWork">Coding Projects</a></li>
-                    <li><a class="jumper" href="#contact">Contact</a></li>
-                </ul>
+            <div class="topnav">
+                <div class="hamburger">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><!--&#61-->&#924</a>
+                </div>
+                <div class="menu" id="myLinks">
+                    <ul>
+                        <li><a class="jumper" href="#aboutJobal">About Me</a></li>
+                        <li><a class="jumper" href="#myWork">Coding Projects</a></li>
+                        <li><a class="jumper" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -95,7 +99,8 @@
                                     When users answer a question, the app returns a confirmation 
                                     or correction message. The app displays question count and score. 
                                     After finishing the quiz, the app allows users to restart the quiz. </p>
-                                    <p class="appDesc appDesc2">2) Train users on the subject of evangelism and test their knowledge.</p>
+                                    <p class="appDesc">2) Train users on the subject of evangelism and test their knowledge.</p>
+                                    <p class="appDesc appDesc2">The technologies used during this project: HTML, CSS, JavaScript, and jQuery</p>
                             </div>
                             <div class="project-links">
                                 <div>
@@ -131,5 +136,7 @@
     </main>
     <footer role="content-info">Hope to see you soon!</footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
