@@ -123,6 +123,10 @@
   .personPhoto > img {
       width: 400px;
   }
+
+  .project-1 {
+    margin-bottom: 100px;
+  }
   
   .projectImg > img {
     width: 400px;
