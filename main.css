@@ -2,297 +2,218 @@
     box-sizing: border-box;
   }
 
-  body {
-    /*font-family: "Open Sans"
-    sans-serif; */
-    font-size: 20px;
-    color: black;
-    line-height: 1.5;
-    background-image: url("https://github.com/jobal22/Portfolio/blob/typography-and-color/images/family-photo.jpg?raw=true");
-    background-attachment: fixed;
-  }
+body {
+  font-size: 20px;
+  color: black;
+  line-height: 1.5;
+  background-image: url("https://github.com/jobal22/Portfolio/blob/typography-and-color/images/family-photo.jpg?raw=true");
+  background-attachment: fixed;
+}
   
-  .border {
-    background: white;
-    /*width: 100%;*/
-    margin-top: 100px;
-    margin-bottom: 20px;
-    border: 4px solid black;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.border {
+  background: white;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  border: 4px solid black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+}
 
-  header, main, footer {
-    text-align: center;
-  }
+header, main, footer {
+  text-align: center;
+}
 
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #0e2c3b;
-  }
+.menu {
+  display: none;
+  margin-left: 20px;
+}
+
+nav, footer {
+  padding: 1% 0;
+  background-color: #0e2c3b;
+}
   
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding-bottom: 10px;
+}
 
-  /*.nav-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }*/
+.icon {
+  text-align: right;
+  padding-right: 23px;
+  color: white;
+  width: 100%;
+  font-size: 40px;
+  text-decoration: none;
+  float: right;
+  display: block;
+}
 
+.logo > img {
+  width: 65px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.topnav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin:0;
+  padding: 10px; /*this took the bullets off*/
+}
+
+.topnav a {
+  margin: 0 20px; 
+  text-decoration: none;
+  color: white;
+  font-family: Neue Haas Unica, 'Times New Roman', Times, serif;
+  letter-spacing: 4px;
+}
+
+.jumper {
+  font-size: 12px;
+}
+
+section > h1, h2, h3 {
+  font-family: "Lucida Sans Unicode",;
+}
+
+header {
+  padding-bottom: 35px;
+}
+
+.banner-intro {
+  margin: 4px;
+}
+
+.introH2 {
+  font-size: 26px;
+}
+
+.introH3 {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
   
-  /*.logo > img {
-      width: 65px;
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%);
-  }*/
+p {
+  font-family: "Helvetica Neue","Verdana", "sans-serif", "New Century Schoolbook", "serif";
+  letter-spacing: 2px;
+}
 
-  .icon {
-    text-align: right;
-    padding-right: 23px;
-    color: white;
-    width: 100%;
-    font-size: 40px;
-    /*float: right;
-    display: block;}*/
-    text-decoration: none;
-  }
-
-  section > h1, h2, h3 {
-    font-family: "Lucida Sans Unicode",;
-  }
-
-
-  header {
-    /*padding: 12% 0;*/
-    padding-bottom: 35px;
-  }
-
-  .banner-intro {
-    margin: 4px;
-  }
-
-  .introH2 {
-    font-size: 26px;
-  }
-
-  .introH3 {
-    font-size: 16px;
-    letter-spacing: 2px;
-  }
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: white;
+}
   
+section:nth-child(even) {
+  background-color: white;
+}
+
+h1 {
+  padding-top:70px; 
+  margin:0 auto; 
+  text-align: center;
+}
+
+hr {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #0e2c3b;
+}
+
+.personPhoto > img {
+  width: 300px;
+}
+
+.project-1, .project-2, .project-3 {
+  margin-bottom: 100px;
+}
+  
+.projectImg > img {
+  width: 350px;
+  border: .5px solid #0e2c3b;
+}
+
+.jobalDesc, .appDesc {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.appDesc2 {
+  padding-bottom: 20px;
+}
+
+.site-link1,  .site-link2{
+  background-color: #0e2c3b;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.social-links {
+  color: #0e2c3b;
+}
+
+footer {
+  color: white;
+}
+
+@media screen and (max-width: 1029px) {
+  .menu {display: none;}
+    
   p {
-    font-family: "Helvetica Neue","Verdana", "sans-serif", "New Century Schoolbook", "serif";
-    letter-spacing: 2px;
-    /*margin-left: 50px;
-    margin-right: 50px;*/
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
-  section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: white;
-  }
-  
-  section:nth-child(even) {
-    background-color: white;
-  }
+}
 
-  h1 {
-    padding-top:70px; 
-    margin:0 auto; 
-    text-align: center;
-  }
+/* @media screen and (min-width: 768px) {
+  .border {
 
-  hr {
-    width: 60%;
+  }
+} */
+
+@media screen and (min-width: 768px) {
+  .jumper {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 1030px) {
+  .border {
     margin-left: auto;
     margin-right: auto;
-    border-color: #0e2c3b;
   }
-
-  .personPhoto > img {
-      width: 400px;
-  }
-
-  .project-1 {
-    margin-bottom: 100px;
-  }
-  
-  .projectImg > img {
-    width: 400px;
+    
+  .siteContent {
+    padding: 40px;
   }
 
   .jobalDesc, .appDesc {
-      text-align: center;
-      padding-left: 20px;
-      padding-right: 20px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
-
-  
-
-  /*.project-links {
-    margin: 1em 1em 4em 1em;
-    max-width: 800px;
-    -webkit-box-orient: vertical;
-    display: flex;
-    align-items: center;
-  }*/
-
-  .appDesc2 {
-    padding-bottom: 20px;
-  }
-
-  .site-link1,  .site-link2{
-      background-color: #0e2c3b;
-      color: white;
-      text-decoration: none;
-      padding: 5px;
-      border-radius: 7px;
-  }
-
-  .social {
-    display: flex;
-    justify-content: space-around;
-    /*padding-top: 10px;
-    margin-top: 0;
-    margin-left: 25px;*/
-    list-style: none;
-    margin-right: 25px;
-  }
-
-  .social-links {
-    color: #0e2c3b;
-  }
-
-  footer {
-      color: white;
-  }
-
-  @media screen and (max-width: 1029px) {
-    .logo > img {
-        width: 65px;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-    }
-
-    .topnav ul{
-      display: flex;
-      justify-content: space-around;
-      list-style: none;
-      margin:0;
-      padding: 10px; /*this took the bullets off*/
-    }
-  
-    .topnav a {
-      margin: 0 20px; 
-      text-decoration: none;
-      color: white;
-      font-family: Neue Haas Unica, 'Times New Roman', Times, serif;
-      letter-spacing: 4px;
-    }
-    
-    .icon {
-    /*text-align: right;
-    padding-right: 13px;
-    color: white;
-    width: 100%;
-    font-size: 40px;*/
-    float: right;
-    display: block;
-    }
-  
-
-    .menu {display: none;}
-
-    /*nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /*justify-content: center;*/
-    
-    p {
-      margin-left: 50px;
-      margin-right: 50px;
-    }
-
-  }
-
-
-  @media screen and (min-width: 1030px) {
-    .border {
-      /*width: 80%;*/
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .siteContent {
-      padding: 40px;
-    }
-
-    .nav-container {
-        display: flex;
-    }
-    
-    .logo > img {
-        width: 80px;
-        position: relative;
-        left: 90px;
-    }
-      
-    .icon {
-        display: none;
-    }
-
-    .topnav {
-        max-width: 1170px;
-        margin: auto;
-        position: relative;
-        left: 20%;
-      }
-    
-      .topnav ul{
-        text-align: right;
-        margin:0;
-        padding: 10px; /*this took the bullets off*/
-      }
-      
-      .topnav ul li {
-        float:none;
-        display: inline-block; 
-        list-style: none;
-      }
-     
-      .topnav ul  a {
-        margin: 0 20px; 
-        text-decoration: none;
-        color: white;
-        font-family: Neue Haas Unica, 'Times New Roman', Times, serif;
-        letter-spacing: 4px;
-        /*text-transform: uppercase;
-        font-weight: bold;*/
-      }
-
-      /*p {
-        margin-left: 10%;
-        margin-right: 10%;
-      }*/
-
-      .jobalDesc, .appDesc {
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    
-  }
+}
   
