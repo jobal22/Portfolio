@@ -19,6 +19,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   min-width: 400px;
+  max-width: 1000px;
 }
 
 header, main, footer {
@@ -82,6 +83,10 @@ nav {
   font-size: 12px;
 }
 
+.jumper:hover{
+  text-decoration: underline;
+}
+
 section > h1, h2, h3 {
   font-family: "Lucida Sans Unicode",;
 }
@@ -129,6 +134,12 @@ hr {
   margin-left: auto;
   margin-right: auto;
   border-color: #0e2c3b;
+}
+
+.personPhoto {
+  min-height: 200px;
+  padding-top: 30px;
+  background-color: white;  
 }
 
 .personPhoto > img {
